@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<locale.h>
-
+#include<stdlib.h>
 int main(){
     setlocale(LC_ALL, "Portuguese");
     int vet[10] = {10,20,30,40,50,60,70,80,90,100};
@@ -12,8 +12,9 @@ int main(){
         soma = soma + vet[i];
     }
         media = soma/10;
-        printf("A média do vetor que armazena 10 números inteiros é %.2f\n", media);
+        printf("A mÃ©dia do vetor que armazena 10 nÃºmeros inteiros Ã© %.2f\n", media);
 
     system("pause");
     return 0;
+
 }
