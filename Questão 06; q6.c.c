@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<locale.h>
+#include<stdlib.h>
 
 int main (){
     setlocale(LC_ALL, "Portuguese");
@@ -12,7 +13,8 @@ int main (){
                 pares++;
             }
         }
-            printf("Os números inteiros pares no vetor é: %d\n", pares);
+            printf("Os nÃºmeros inteiros pares no vetor Ã©: %d\n", pares);
     system("pause");
     return 0;
+
 }
