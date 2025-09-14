@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<locale.h>
-
+#include<stdlib.h>
 int main (){
     setlocale(LC_ALL, "Portuguese");
     int vet[10] = {1,2,9,40,5,63,17,8,91,10};
@@ -11,7 +11,8 @@ int main (){
                 maior = vet[i];
             }
         }
-                printf("O maior elemento no vetor é: %d", maior);
+                printf("O maior elemento no vetor Ã©: %d", maior);
     return(0);
     system("pause");
+
 }
