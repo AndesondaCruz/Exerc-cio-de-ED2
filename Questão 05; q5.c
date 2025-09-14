@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<locale.h>
-
+#include<stdlib>
 int main (){
     
     int vet[10] = {1,2,3,4,5,6,7,8,9,10};
@@ -12,4 +12,5 @@ int main (){
      printf("\n");
     system("pause");
     return 0;
+
 }
