@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<locale.h>
 #include<stdlib>
-int main (){
+int main (int argv, char *argc[]){
     
     int vet[10] = {1,2,3,4,5,6,7,8,9,10};
     int i = 10;
@@ -14,3 +14,4 @@ int main (){
     return 0;
 
 }
+
