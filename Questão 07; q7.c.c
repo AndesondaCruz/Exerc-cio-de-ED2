@@ -2,7 +2,7 @@
 #include<locale.h>
 #include<stdlib.h>
 
-int main(){
+int main(int argv, char *argc[]){
     setlocale(LC_ALL, "Portuguese");
     int vet[10] = {21, 7, 20, 17, 45, 41, 10, 100, 67, 354};
     int menor = vet[0];
@@ -14,7 +14,8 @@ int main(){
                 menor = vet[i];    
             }
         }
-                printf("\nO menor elemento no vetor é: %d\n", menor);
+                printf("\nO menor elemento no vetor Ã©: %d\n", menor);
     system ("pause");
     return 0; 
+
 }
