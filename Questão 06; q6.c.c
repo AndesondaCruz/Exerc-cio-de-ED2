@@ -2,7 +2,7 @@
 #include<locale.h>
 #include<stdlib.h>
 
-int main (){
+int main (int argv, char *argc[]){
     setlocale(LC_ALL, "Portuguese");
 
     int vet[10] = {23,43,3,4,50,6,7,8,998,10};
@@ -18,3 +18,4 @@ int main (){
     return 0;
 
 }
+
