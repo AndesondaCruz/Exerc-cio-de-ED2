@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<locale.h>
 #include<stdlib.h>
-int main(){
+int main(int argv, char *argc[]){
     setlocale(LC_ALL, "Portuguese");
     int vet[10] = {10,20,30,40,50,60,70,80,90,100};
     float media;
@@ -18,3 +18,4 @@ int main(){
     return 0;
 
 }
+
