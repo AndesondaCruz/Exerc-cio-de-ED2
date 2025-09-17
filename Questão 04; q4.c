@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<locale.h>
 #include<stdlib.h>
-int main (){
+int main (int argv, char *argc[]){
     setlocale(LC_ALL, "Portuguese");
     int vet[10] = {1,2,9,40,5,63,17,8,91,10};
     int i;
@@ -16,3 +16,4 @@ int main (){
     system("pause");
 
 }
+
